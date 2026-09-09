@@ -1,0 +1,21 @@
+UNPLUG — LICENCIA / LICENSE
+
+Copyright © 2026 Francisco Manuel Clavellina Marroquín. Todos los derechos reservados.
+
+ESPAÑOL
+Este repositorio contiene software y diseño de juego propiedad de su autor. El código se muestra
+públicamente en GitHub únicamente para su consulta, conforme a los Términos de Servicio de GitHub
+(que permiten ver y bifurcar repositorios públicos). Fuera de eso, NO se concede ninguna licencia:
+queda prohibido copiar, modificar, redistribuir, alojar, vender, sublicenciar o crear obras derivadas
+de este software, total o parcialmente, sin autorización previa y por escrito del autor.
+El software se ofrece "tal cual", sin garantía de ningún tipo.
+Contacto: a través de GitHub.
+
+ENGLISH
+This repository contains software and game design owned by the author. The code is shown publicly on
+GitHub for viewing only, as allowed by the GitHub Terms of Service (which permit viewing and forking
+public repositories). No other license is granted: copying, modifying, redistributing, hosting, selling,
+sublicensing or creating derivative works of this software, in whole or in part, is prohibited without
+the author's prior written permission.
+The software is provided "as is", without warranty of any kind.
+Contact: via GitHub.
