@@ -1,4 +1,4 @@
-// UNPLUG — service worker (v167): primero la copia guardada (abre al instante, aun con mala señal) y en segundo plano se baja la versión nueva.
+// UNPLUG — service worker (v168): primero la copia guardada (abre al instante, aun con mala señal) y en segundo plano se baja la versión nueva.
 // Cuando la página nueva ya quedó guardada y es distinta de la que se está usando, se avisa a la app ("Actualización lista · reabre"); se usa al reabrir.
 // __unplug_meta guarda { served: firma de la página que se abrió, ready: firma de la más nueva en caché }. Firma = ETag o, sin ETag, tamaño + hash del texto.
 // served se escribe en cuanto la página sale de la caché (no al terminar la descarga en segundo plano); la app además recuerda la firma de SU página.
