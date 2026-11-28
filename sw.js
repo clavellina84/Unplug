@@ -1,8 +1,8 @@
-// UNPLUG — service worker (v223). build.py lo genera desde sw.tpl.js con la huella del build: cada build cambia sus bytes y el navegador lo trata como versión nueva.
+// UNPLUG — service worker (v224). build.py lo genera desde sw.tpl.js con la huella del build: cada build cambia sus bytes y el navegador lo trata como versión nueva.
 // v210: la versión nueva se instala y ESPERA (sin skipWaiting automático): la partida en curso nunca cambia de código a media jugada.
 // La app avisa «Hay una versión nueva · Actualizar»; al tocarlo guarda, manda SKIP_WAITING y recarga cuando cambia el service worker que la controla.
 // Cada build tiene su propia caché (unplug-<huella>) con SU página; al activarse borra las anteriores (incluida la unplug-v3 de v209 y su __unplug_meta).
-const BUILD = 'bcb6040bb320';
+const BUILD = '1f37779d1de8';
 const CACHE = 'unplug-' + BUILD;
 const PAGE = () => new Request(self.registration.scope);
 /* v182: sólo se guarda una respuesta que de verdad es la app: 200, text/html, más de 1 MB y con la marca de versión. v210: y con la huella de ESTE build:
